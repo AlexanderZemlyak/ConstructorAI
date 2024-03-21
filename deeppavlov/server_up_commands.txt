@@ -1,0 +1,3 @@
+python -m deeppavlov install topics_distilbert_base_uncased
+python -m deeppavlov download topics_distilbert_base_uncased
+python -m deeppavlov riseapi {$YOURPATH}/ConstructorAI/deeppavlov/model/topics_distilbert_base_uncased.json -p 5005
