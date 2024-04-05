@@ -1,3 +1,4 @@
 python -m deeppavlov install topics_distilbert_base_uncased
-python -m deeppavlov download topics_distilbert_base_uncased
+git clone git@github.com:AlexanderZemlyak/ConstructorAI.git
+wget -O model.pth.tar https://www.dropbox.com/scl/fi/tb0f2u7yck1rd2tcahrke/model.pth.tar?rlkey=s9u4oyeaw8zk3f1okx527e0jm&dl=0
 python -m deeppavlov riseapi {$YOURPATH}/ConstructorAI/deeppavlov/model/topics_distilbert_base_uncased.json -p 5005
