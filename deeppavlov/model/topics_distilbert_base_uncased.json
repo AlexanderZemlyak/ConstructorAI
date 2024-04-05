@@ -38,8 +38,8 @@
         "fit_on": [
           "y"
         ],
-        "save_path": "./ConstructorAI/deeppavlov/model/classes.dict",
-        "load_path": "./ConstructorAI/deeppavlov/model/classes.dict",
+        "save_path": "./deeppavlov/model/classes.dict",
+        "load_path": "./deeppavlov/model/classes.dict",
         "in": [
           "y"
         ],
@@ -64,8 +64,8 @@
         "n_classes": "#classes_vocab.len",
         "return_probas": true,
         "pretrained_bert": "{TRANSFORMER}",
-        "save_path": "./ConstructorAI/deeppavlov/model/model",
-        "load_path": "./ConstructorAI/deeppavlov/model/model",
+        "save_path": "./deeppavlov/model/model",
+        "load_path": "./deeppavlov/model/model",
         "multilabel": true,
         "optimizer": "AdamW",
         "optimizer_parameters": {
