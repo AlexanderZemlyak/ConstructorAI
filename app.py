@@ -1,7 +1,9 @@
 import os
 from flask import Flask, request, jsonify
-from preprocessing import clean_text
 from joblib import load
+import sys
+
+sys.path.append('.')
 
 script_dir = os.path.dirname(__file__)
 
