@@ -1,0 +1,7 @@
+Flask>=2.0.0
+gunicorn>=20.0.0
+scikit-learn>=1.6.1
+numpy>=1.21.0
+pymorphy3
+joblib
+nltk
